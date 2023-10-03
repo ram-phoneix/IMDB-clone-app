@@ -1,0 +1,180 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    background-color: #007bff;
+    color: white;
+    padding: 20px;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Search section styles */
+.search-section {
+    padding: 20px;
+}
+
+.search-bar {
+    margin-bottom: 20px;
+}
+
+#search-input {
+    width: 70%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#search-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+/* Search results styles */
+.search-results {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: space-between;
+}
+
+.movie-box {
+    width: calc(33.33% - 10px);
+    margin-right: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+    text-align: center;
+    position: relative;
+}
+
+.movie-box img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Favorite section styles */
+.favorites-list {
+    list-style: none;
+    padding: 0;
+}
+
+.favorites-list li {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f5f5f5;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.favorites-list li a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.add-favorite {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease; /* Add a smooth hover effect */
+}
+
+.add-favorite:hover {
+    background-color: #0056b3; /* Change color on hover */
+}
+
+.favorites-link {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.favorites-link:hover {
+    background-color: #0056b3;
+}
+/* Movie details page styles */
+.movie-details {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Style for Movie Details button */
+.movie-details-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-top: 10px; /* Add some spacing below the "Add to Favorite" button */
+    transition: background-color 0.3s ease; /* Add a smooth hover effect */
+}
+
+.movie-details-button:hover {
+    background-color: #0056b3; /* Change color on hover */
+}
+
+/* Style for Remove from Favorite button */
+.remove-favorite {
+    background-color: #ff0000; /* Red background color */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease; /* Add a smooth hover effect */
+}
+
+.remove-favorite:hover {
+    background-color: #cc0000; /* Darker red color on hover */
+}
+
+/* Back to Main Page link styles */
+a {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: none;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+a:hover {
+    background-color: #0056b3;
+}
